@@ -31,3 +31,21 @@ p, h1, h2, h3, h4, h5, h6 {
 #root, #__next {
     isolation: isolate;
 }
+
+:root {
+    --green: #3c6e71;
+    --dark: #353535;
+    color: white;
+    background-color: var(--dark);
+}
+
+body {
+    overflow: hidden;
+}
+
+header {
+    background-color: var(--green);
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 10%;
+}
