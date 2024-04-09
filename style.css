@@ -33,18 +33,21 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 :root {
-    --green: #3c6e71;
-    --dark: #353535;
+    --brown: #5e503f;
+    --cream: #eae0d5;
     --gray: #d3d3d3;
-    color: white;
-    background-color: var(--dark);
+    --dark: #0a0908;
+    --white: #ffffff;
+    color: var(--dark);
+    background-color: var(--cream);
 }
 
 header {
-    background-color: var(--green);
+    background-color: var(--brown);
     display: flex;
     justify-content: space-between;
     padding: 16px 10%;
+    color: var(--white);
 }
 
 main {
@@ -57,7 +60,7 @@ main {
 .card {
     display: flex;
     flex-direction: column;
-    background-color: var(--dark);
+    background-color: var(--cream);
 }
 
 .card-header {
@@ -66,17 +69,19 @@ main {
     padding: 16px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    background-color: var(--green);
+    background-color: var(--brown);
+    color: var(--white);
 }
 
 .card-body {
     padding: 16px;
-    border: solid 2px var(--green);
+    border: solid 2px var(--brown);
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     display: flex;
     flex-direction: column;
     gap: 12px;
+    font-weight: 600;
 }
 
 .icons {
@@ -90,7 +95,7 @@ main {
 }
 
 .button-icon {
-    background-color: var(--green);
+    background-color: var(--brown);
     border: none;
     stroke: white;
 }
@@ -100,8 +105,8 @@ main {
 }
 
 .add {
-    color: var(--dark);
-    stroke: var(--dark);
+    color: var(--brown);
+    stroke: var(--brown);
     font-weight: 600;
     display: flex;
     align-items: center;
