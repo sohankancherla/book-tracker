@@ -10,6 +10,7 @@
     <title>Book Tracker</title>
 </head>
 <body>
+    <div id="backdrop"></div>
     <header>
         <h1>Book Tracker</h1>
         <button class="add">
@@ -42,10 +43,29 @@
                 <p>Read: <span>Yes</span></p>
             </div>
         </div>
-        <dialog open>
-            <p>Greetings, one and all!</p>
+        <dialog class="modal" open>
+            <div class="dialog-header">
+                <h3>Add Book</h3>
+                <button class="dialog-icon">
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                    </svg>                      
+                </button>
+            </div>
             <form method="dialog">
-              <button>OK</button>
+                <label for="title">Title</label>
+                <input type="text" id="title" required minlength="1" maxlength="26">
+                <label for="author">Author</label>
+                <input type="text" id="author" required minlength="1" maxlength="26">
+                <label for="pages">Pages</label>
+                <input type="number" id="pages" required min="1">
+                <div>
+                <label for="read">Read</label>
+                    <checkbox id="read">
+                        <input type="checkbox" id="read">
+                    </checkbox>
+                </div>
+                <button class="mt" type="submit">Add</button>
             </form>
         </dialog>
     </main>
