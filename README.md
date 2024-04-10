@@ -44,7 +44,6 @@ Below is a list of the major tools and languages utilized:
 
 ## Acknowledgements
 
-* UI Design: [Dmitry Sergushkin](https://dribbble.com/shots/20330398-Case-study-Sign-up-form)
-* Icons: [Icons8](https://icons8.com/)
+* Favicon: [Icons8](https://icons8.com/)
 * Icons: [heroicons](https://heroicons.com/)
 * Idea: [The Odin Project](https://www.theodinproject.com/)
