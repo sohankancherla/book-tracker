@@ -143,13 +143,3 @@ document.addEventListener('DOMContentLoaded', (event) => {
         addBookToDisplay(book, library.length - 1);
     });
 });
-
-let book1 = new Book("The Hobbit", "J.R.R. Tolkien", 295, true);
-let book2 = new Book("The Fellowship of the Ring", "J.R.R. Tolkien", 398, false);
-let book3 = new Book("The Two Towers", "J.R.R. Tolkien", 327, false);
-
-addBookToLibrary(book1);
-addBookToLibrary(book2);
-addBookToLibrary(book3);
-
-showBooks();
